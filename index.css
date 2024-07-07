@@ -1,0 +1,1520 @@
+@font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Thin.690fb846.otf) format("opentype");
+    font-weight:100;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Light.a39ef44a.otf) format("opentype");
+    font-weight:300;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Book.a288d79c.otf) format("opentype");
+    font-weight:350;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Regular.1fa99b0b.otf) format("opentype");
+    font-weight:400;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Bold.49f6926a.otf) format("opentype");
+    font-weight:700;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-ExtraBold.812ab171.otf) format("opentype");
+    font-weight:800;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Heavy.f7851a45.otf) format("opentype");
+    font-weight:900;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Black.f35f77b5.otf) format("opentype");
+    font-weight:950;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/37160c2c1a1c0b2c-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:300;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/cdc83711ba157962-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/794886cc5c70a0ae-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:700;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/0b83511c58f914fd-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:800;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_Fallback_df0f6a;
+    src:local("Arial");
+    ascent-override:91.65%;
+    descent-override:27.37%;
+    line-gap-override:20.20%;
+    size-adjust:108.89%;
+  } 
+    body {  
+      font-family:Nexa-Regular,sans-serif;
+      line-height:inherit;
+    }  
+  * { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  * { 
+      box-sizing: border-box; 
+      font-family: Nexa,sans-serif;
+  } 
+  
+  body { 
+      margin: 0; 
+      line-height: inherit;
+  } 
+  
+  body { 
+      margin: 0; 
+      overflow-x: hidden; 
+      box-sizing: border-box; 
+      font-family: Nexa-Regular,sans-serif;
+  } 
+  
+  html { 
+      line-height: 1.15;
+  } 
+  
+  html { 
+      line-height: 1.5; 
+      -webkit-text-size-adjust: 100%; 
+      -moz-tab-size: 4; 
+      -o-tab-size: 4; 
+      tab-size: 4; 
+      font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
+      font-feature-settings: normal;
+  } 
+  
+  html { 
+      margin: 0; 
+      overflow-x: hidden; 
+      box-sizing: border-box; 
+      font-family: Nexa-Regular,sans-serif;
+  } 
+  
+  *,:after,:before { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  :-webkit-scrollbar { 
+      display: none;
+  } 
+  
+  .Footer_footer__Dhw_9 { 
+      background-color: #1b1e2d; 
+      padding: 64px 0 30px; 
+      position: relative;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      display: block; 
+      vertical-align: middle;
+  } 
+  
+  img { 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  .absolute { 
+      position: absolute;
+  } 
+  
+  .bottom-\[100\%\] { 
+      bottom: 100%;
+  } 
+  
+  .right-0 { 
+      right: 0;
+  } 
+  
+  .z-10 { 
+      z-index: 10;
+  } 
+  
+  .Footer_width_wrapper__4VILQ { 
+      width: 90vw; 
+      max-width: 1440px; 
+      margin: 0 auto;
+  } 
+  
+  .Footer_footer_topContent__4I5A6 { 
+      display: flex; 
+      justify-content: center; 
+      padding-bottom: 50px; 
+      border-bottom: 1px solid #323542;
+  } 
+  
+  .Footer_footer_links__ZZ_Pj { 
+      display: flex; 
+      justify-content: center; 
+      margin-top: 50px; 
+      padding-bottom: 30px; 
+      border-bottom: 1px solid #323542;
+  } 
+  
+  .Footer_footer_links_mob__BuqyC { 
+      display: none;
+  } 
+  
+  .Footer_footer_foot__N75J8 { 
+      display: flex; 
+      padding: 30px 0 0; 
+      justify-content: center;
+  } 
+  
+  .left-0 { 
+      left: 0;
+  } 
+  
+  .Footer_footer_topContent_half__mWNn6 { 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center;
+  } 
+  
+  .Footer_footer_topContent_half__mWNn6:last-child { 
+      flex: 1; 
+      align-items: flex-start;
+  } 
+  
+  .Footer_footer_links_half__AE0cz { 
+      display: flex;
+  } 
+  
+  .Footer_footer_links_half__AE0cz:first-of-type { 
+      flex: 2;
+  } 
+  
+  .Footer_footer_links_half__AE0cz:last-of-type { 
+      flex: 1;
+  } 
+  
+  p { 
+      margin: 0;
+  } 
+  
+  p { 
+      margin-bottom: 1rem;
+  } 
+  
+  .Footer_footer_foot_text__RBmUl { 
+      color: #666; 
+      margin: 0 20px;
+  } 
+  
+  .Footer_footer_foot_mobWrapper__s_7W9 { 
+      display: flex;
+  } 
+  
+  .Footer_footer_topContent_half__mWNn6:first-child { 
+      flex: 2; 
+      align-items: flex-start;
+  } 
+  
+  .Footer_footer_logo__CxFXo { 
+      background-color: #fff; 
+      border-radius: 12px; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      padding: 8px 10px;
+  } 
+  
+  .Footer_footer_social__PQpQG { 
+      display: flex; 
+      flex-direction: column; 
+      margin-top: 48px;
+  } 
+  
+  .Footer_footer_text__2VHkW { 
+      font-size: 16px; 
+      line-height: 22px; 
+      font-weight: 700; 
+      margin: 0; 
+      padding: 0; 
+      color: #fff;
+  } 
+  
+  .mt-10 { 
+      margin-top: 2.5rem;
+  } 
+  
+  .flex { 
+      display: flex;
+  } 
+  
+  a { 
+      background-color: transparent;
+  } 
+  
+  a { 
+      text-decoration: inherit;
+  } 
+  
+  a { 
+      text-decoration: none; 
+      color: inherit;
+  } 
+  
+  .Footer_footer_contact__U6jP7 { 
+      margin-top: 10px;
+  } 
+  
+  ul { 
+      list-style: none; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  .Footer_footer_links_list__EPKXS { 
+      list-style: none; 
+      padding: 0; 
+      margin: 0 40px;
+  } 
+  
+  .Footer_footer_links_list__EPKXS:first-of-type { 
+      margin-left: 0;
+  } 
+  
+  .Footer_footer_social_link__kndE9 { 
+      padding: 0 4px;
+  } 
+  
+  .Footer_footer_text_grey__ZM_wp { 
+      color: #a4a5ab;
+  } 
+  
+  .Footer_footer_links_list_title___tnJw { 
+      font-size: 16px; 
+      line-height: 22px; 
+      font-weight: 700; 
+      color: #fff; 
+      margin-bottom: 16px;
+  } 
+  
+  .Footer_footer_links_list_item__m8_l9 { 
+      font-size: 14px; 
+      line-height: 20px; 
+      color: #a5a5a5; 
+      padding-bottom: 12px;
+  } 
+  
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Thin.690fb846.otf) format("opentype");
+    font-weight:100;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Light.a39ef44a.otf) format("opentype");
+    font-weight:300;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Book.a288d79c.otf) format("opentype");
+    font-weight:350;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Regular.1fa99b0b.otf) format("opentype");
+    font-weight:400;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Bold.49f6926a.otf) format("opentype");
+    font-weight:700;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-ExtraBold.812ab171.otf) format("opentype");
+    font-weight:800;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Heavy.f7851a45.otf) format("opentype");
+    font-weight:900;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Black.f35f77b5.otf) format("opentype");
+    font-weight:950;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/37160c2c1a1c0b2c-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:300;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/cdc83711ba157962-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/794886cc5c70a0ae-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:700;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/0b83511c58f914fd-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:800;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_Fallback_df0f6a;
+    src:local("Arial");
+    ascent-override:91.65%;
+    descent-override:27.37%;
+    line-gap-override:20.20%;
+    size-adjust:108.89%;
+  } 
+    body {  
+      font-family:Nexa-Regular,sans-serif;
+      line-height:inherit;
+    }  
+  body { 
+  /* CSS Variables that may have been missed get put on body */ 
+      --tw-bg-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-text-opacity:  1;  
+      --tw-bg-opacity:  1;  
+  } 
+  
+  * { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  * { 
+      box-sizing: border-box; 
+      font-family: Nexa,sans-serif;
+  } 
+  
+  body { 
+      margin: 0; 
+      line-height: inherit;
+  } 
+  
+  body { 
+      margin: 0; 
+      overflow-x: hidden; 
+      box-sizing: border-box; 
+      font-family: Nexa-Regular,sans-serif;
+  } 
+  
+  html { 
+      line-height: 1.15;
+  } 
+  
+  html { 
+      line-height: 1.5; 
+      -webkit-text-size-adjust: 100%; 
+      -moz-tab-size: 4; 
+      -o-tab-size: 4; 
+      tab-size: 4; 
+      font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
+      font-feature-settings: normal;
+  } 
+  
+  html { 
+      margin: 0; 
+      overflow-x: hidden; 
+      box-sizing: border-box; 
+      font-family: Nexa-Regular,sans-serif;
+  } 
+  
+  *,:after,:before { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  :-webkit-scrollbar { 
+      display: none;
+  } 
+  
+  .flex { 
+      display: flex;
+  } 
+  
+  .flex-col { 
+      flex-direction: column;
+  } 
+  
+  .items-center { 
+      align-items: center;
+  } 
+  
+  .mt-48 { 
+      margin-top: 12rem;
+  } 
+  
+  .justify-center { 
+      justify-content: center;
+  } 
+  
+  .mb-48 { 
+      margin-bottom: 12rem;
+  } 
+  
+  .relative { 
+      position: relative;
+  } 
+  
+  .w-\[100vw\] { 
+      width: 100vw;
+  } 
+  
+  .overflow-x-hidden { 
+      overflow-x: hidden;
+  } 
+  
+  .venturesinnovation_innovation_wraper__Hk_Zk { 
+      background: linear-gradient(180deg,rgba(225,233,254,.8),rgba(225,233,254,0));
+  } 
+  
+  .pointer-events-none { 
+      pointer-events: none;
+  } 
+  
+  .venturesinnovation_innovation_bottom__4n_IN { 
+      position: absolute; 
+      width: 100%; 
+      bottom: 0; 
+      height: 30%; 
+      left: 0; 
+      right: 0; 
+      background: linear-gradient(0deg,#fff,transparent); 
+      z-index: 5;
+  } 
+  
+  .z-10 { 
+      z-index: 10;
+  } 
+  
+  .w-\[1204px\] { 
+      width: 1204px;
+  } 
+  
+  .pt-\[95px\] { 
+      padding-top: 95px;
+  } 
+  
+  .flex-row { 
+      flex-direction: row;
+  } 
+  
+  .gap-\[100px\] { 
+      gap: 100px;
+  } 
+  
+  .py-\[24px\] { 
+      padding-top: 24px; 
+      padding-bottom: 24px;
+  } 
+  
+  .portfolioventures_portfolio_wrapper__5txk4 { 
+      background: linear-gradient(180deg,rgba(225,233,254,0),rgba(225,233,254,.8) 52.08%,rgba(225,233,254,0));
+  } 
+  
+  .gap-\[80px\] { 
+      gap: 80px;
+  } 
+  
+  .rounded-\[32px\] { 
+      border-radius: 32px;
+  } 
+  
+  .bg-\[\#1B1E2D\] { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(27 30 45/var(--tw-bg-opacity));
+  } 
+  
+  .p-\[78px\] { 
+      padding: 78px;
+  } 
+  
+  .left-0 { 
+      left: 0;
+  } 
+  
+  .absolute { 
+      position: absolute;
+  } 
+  
+  .right-0 { 
+      right: 0;
+  } 
+  
+  .top-\[-1px\] { 
+      top: -1px;
+  } 
+  
+  .h-\[100\%\] { 
+      height: 100%;
+  } 
+  
+  .w-\[110vw\] { 
+      width: 110vw;
+  } 
+  
+  .flex-wrap { 
+      flex-wrap: wrap;
+  } 
+  
+  .overflow-y-hidden { 
+      overflow-y: hidden;
+  } 
+  
+  .singlegrid_grid_wrapper__4Y_wq { 
+      width: 75px; 
+      height: 75px; 
+      border: .5px solid hsla(240,1%,86%,.847); 
+      transition: 1.5s ease-out; 
+      z-index: 1;
+  } 
+  
+  .singlegrid_grid_wrapper__4Y_wq:hover { 
+      background: #dcdcdd; 
+      transition: .1s linear;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      display: block; 
+      vertical-align: middle;
+  } 
+  
+  img { 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  h1 { 
+      font-size: 2em; 
+      margin: .67em 0;
+  } 
+  
+  h1 { 
+      font-size: inherit; 
+      font-weight: inherit;
+  } 
+  
+  h1 { 
+      margin: 0;
+  } 
+  
+  h1 { 
+      font-size: 2.5rem;
+  } 
+  
+  h1 { 
+      margin-bottom: .5rem;
+  } 
+  
+  .mt-16 { 
+      margin-top: 4rem;
+  } 
+  
+  .venturesinnovation_innovation_header__T11vM { 
+      font-style: normal; 
+      font-weight: 900; 
+      font-size: 82px; 
+      line-height: 102px;
+  } 
+  
+  .venturesinnovation_fuel_header__0Z_CV { 
+      font-style: normal; 
+      font-weight: 900; 
+      font-size: 82px; 
+      line-height: 102px; 
+      color: #6b91fc;
+  } 
+  
+  p { 
+      margin: 0;
+  } 
+  
+  p { 
+      margin-bottom: 1rem;
+  } 
+  
+  .w-\[960px\] { 
+      width: 960px;
+  } 
+  
+  .venturesinnovation_para1__8Ku5L { 
+      font-style: normal; 
+      font-weight: 800; 
+      font-size: 32px; 
+      line-height: 44px; 
+      color: #494b57;
+  } 
+  
+  button { 
+      line-height: 1.15;
+  } 
+  
+  button { 
+      overflow: visible;
+  } 
+  
+  button { 
+      font-family: inherit; 
+      font-size: 100%; 
+      font-weight: inherit; 
+      line-height: inherit; 
+      color: inherit; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      cursor: pointer;
+  } 
+  
+  [type="button"],button { 
+      -webkit-appearance: button; 
+      background-color: transparent; 
+      background-image: none;
+  } 
+  
+  .venturesinnovation_button_apply__nupyL { 
+      width: 195px; 
+      background: #121319; 
+      color: #f4f4f6; 
+      pointer-events: visible;
+  } 
+  
+  .venturesinnovation_button_apply__nupyL { 
+      height: 54px; 
+      border-radius: 12px; 
+      font-style: normal; 
+      font-weight: 800; 
+      font-size: 16px; 
+      line-height: 22px;
+  } 
+  
+  .gap-\[32px\] { 
+      gap: 32px;
+  } 
+  
+  h2 { 
+      font-size: inherit; 
+      font-weight: inherit;
+  } 
+  
+  h2 { 
+      margin: 0;
+  } 
+  
+  h2 { 
+      font-size: 2rem;
+  } 
+  
+  h2 { 
+      margin-bottom: .5rem;
+  } 
+  
+  .text-\[48px\] { 
+      font-size: 48px;
+  } 
+  
+  .font-extrabold { 
+      font-weight: 800;
+  } 
+  
+  .text-\[\#494b57\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(73 75 87/var(--tw-text-opacity));
+  } 
+  
+  .justify-evenly { 
+      justify-content: space-evenly;
+  } 
+  
+  .gap-\[40px\] { 
+      gap: 40px;
+  } 
+  
+  .text-\[\#1b1e2d\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(27 30 45/var(--tw-text-opacity));
+  } 
+  
+  .mt-\[48px\] { 
+      margin-top: 48px;
+  } 
+  
+  .w-full { 
+      width: 100%;
+  } 
+  
+  .gap-\[65px\] { 
+      gap: 65px;
+  } 
+  
+  .py-6 { 
+      padding-top: 1.5rem; 
+      padding-bottom: 1.5rem;
+  } 
+  
+  .mt-\[64px\] { 
+      margin-top: 64px;
+  } 
+  
+  .letstalk_bg_wrapper__51qOT { 
+      background-image: linear-gradient(90deg,rgba(48,55,83,.336) 1px,transparent 0,transparent 0),linear-gradient(0deg,rgba(48,55,83,.336) 1px,transparent 0,transparent 0); 
+      background-size: 26px 26px; 
+      position: absolute; 
+      width: 100%; 
+      left: 0; 
+      height: 85%; 
+      top: 50px; 
+      z-index: 1;
+  } 
+  
+  .w-\[50\%\] { 
+      width: 50%;
+  } 
+  
+  .w-\[430px\] { 
+      width: 430px;
+  } 
+  
+  .gap-\[12px\] { 
+      gap: 12px;
+  } 
+  
+  .text-\[24px\] { 
+      font-size: 24px;
+  } 
+  
+  .text-\[18px\] { 
+      font-size: 18px;
+  } 
+  
+  .font-bold { 
+      font-weight: 700;
+  } 
+  
+  .min-w-\[260px\] { 
+      min-width: 260px;
+  } 
+  
+  .mt-4 { 
+      margin-top: 1rem;
+  } 
+  
+  .py-16 { 
+      padding-top: 4rem; 
+      padding-bottom: 4rem;
+  } 
+  
+  .w-\[348px\] { 
+      width: 348px;
+  } 
+  
+  .w-\[276px\] { 
+      width: 276px;
+  } 
+  
+  .text-white { 
+      --tw-text-opacity: 1; 
+      color: rgb(255 255 255/var(--tw-text-opacity));
+  } 
+  
+  .mt-\[24px\] { 
+      margin-top: 24px;
+  } 
+  
+  .text-\[\#a4a5ab\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(164 165 171/var(--tw-text-opacity));
+  } 
+  
+  input { 
+      line-height: 1.15;
+  } 
+  
+  input { 
+      overflow: visible;
+  } 
+  
+  input { 
+      font-family: inherit; 
+      font-size: 100%; 
+      font-weight: inherit; 
+      line-height: inherit; 
+      color: inherit; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  .h-\[56px\] { 
+      height: 56px;
+  } 
+  
+  .rounded-xl { 
+      border-radius: .75rem;
+  } 
+  
+  .pl-\[24px\] { 
+      padding-left: 24px;
+  } 
+  
+  .outline-none { 
+      outline: 2px solid transparent; 
+      outline-offset: 2px;
+  } 
+  
+  textarea { 
+      line-height: 1.15;
+  } 
+  
+  textarea { 
+      overflow: auto;
+  } 
+  
+  textarea { 
+      font-family: inherit; 
+      font-size: 100%; 
+      font-weight: inherit; 
+      line-height: inherit; 
+      color: inherit; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  textarea { 
+      resize: vertical;
+  } 
+  
+  .p-\[24px\] { 
+      padding: 24px;
+  } 
+  
+  [type="submit"],button { 
+      -webkit-appearance: button; 
+      background-color: transparent; 
+      background-image: none;
+  } 
+  
+  .letstalk_letstalk_btn__m6_Ok { 
+      height: 54px; 
+      border-radius: 12px; 
+      font-style: normal; 
+      font-weight: 800; 
+      font-size: 16px; 
+      line-height: 22px;
+  } 
+  
+  .letstalk_letstalk_btn__m6_Ok { 
+      width: 100%; 
+      background: #b1e50e; 
+      color: #323542;
+  } 
+  
+  .w-\[378px\] { 
+      width: 378px;
+  } 
+  
+  .cursor-pointer { 
+      cursor: pointer;
+  } 
+  
+  .h-\[140px\] { 
+      height: 140px;
+  } 
+  
+  .w-auto { 
+      width: auto;
+  } 
+  
+  .gap-0 { 
+      gap: 0;
+  } 
+  
+  .text-\[16px\] { 
+      font-size: 16px;
+  } 
+  
+  .mt-\[40px\] { 
+      margin-top: 40px;
+  } 
+  
+  .h-\[260px\] { 
+      height: 260px;
+  } 
+  
+  a { 
+      background-color: transparent;
+  } 
+  
+  a { 
+      text-decoration: inherit;
+  } 
+  
+  a { 
+      text-decoration: none; 
+      color: inherit;
+  } 
+  
+  .mt-\[16px\] { 
+      margin-top: 16px;
+  } 
+  
+  .text-\[\#f4f4f6\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(244 244 246/var(--tw-text-opacity));
+  } 
+  
+  .mt-\[16\] { 
+      margin-top: 16;
+  } 
+  
+  .gap-\[24px\] { 
+      gap: 24px;
+  } 
+  
+  .rounded-3xl { 
+      border-radius: 1.5rem;
+  } 
+  
+  .text-\[\#121319\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(18 19 25/var(--tw-text-opacity));
+  } 
+  
+  .font-normal { 
+      font-weight: 400;
+  } 
+  
+  .text-\[\#323542\] { 
+      --tw-text-opacity: 1; 
+      color: rgb(50 53 66/var(--tw-text-opacity));
+  } 
+  
+  .h-\[296px\] { 
+      height: 296px;
+  } 
+  
+  .w-\[277px\] { 
+      width: 277px;
+  } 
+  
+  .rounded-2xl { 
+      border-radius: 1rem;
+  } 
+  
+  .bg-white { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  } 
+  
+  .p-\[32px\] { 
+      padding: 32px;
+  } 
+  
+  .mt-\[4px\] { 
+      margin-top: 4px;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-jNBS8.style-jNBS8 {  
+     color: transparent;  
+  }  
+  #style-zO4O3.style-zO4O3 {  
+     color: transparent;  
+  }  
+  #style-XFSEy.style-XFSEy {  
+     color: transparent;  
+  }  
+  #style-az1mV.style-az1mV {  
+     color: transparent;  
+  }  
+  #style-GPWOi.style-GPWOi {  
+     color: transparent;  
+  }  
+  #style-GDGeC.style-GDGeC {  
+     color: transparent;  
+  }  
+  #style-x2B4b.style-x2B4b {  
+     color: transparent;  
+  }  
+  #style-l8a8F.style-l8a8F {  
+     color: transparent;  
+  }  
+  #style-TI7cx.style-TI7cx {  
+     color: transparent;  
+  }  
+  #style-VMdRO.style-VMdRO {  
+     color: transparent;  
+  }  
+  #style-Hb9iM.style-Hb9iM {  
+     color: transparent;  
+  }  
+  #style-oO8W7.style-oO8W7 {  
+     color: transparent;  
+  }  
+  #style-hajVL.style-hajVL {  
+     color: transparent;  
+  }  
+  #style-P5kv3.style-P5kv3 {  
+     color: transparent;  
+  }  
+  #style-yzMYi.style-yzMYi {  
+     color: transparent;  
+  }  
+  #style-oYCse.style-oYCse {  
+     color: transparent;  
+  }  
+  #style-29gOw.style-29gOw {  
+     color: transparent;  
+  }  
+  #style-jX8I5.style-jX8I5 {  
+     color: transparent;  
+  }  
+  #style-2zZcY.style-2zZcY {  
+     color: transparent;  
+      border-radius: 24px;  
+      width: 225px;  
+      height: 225px;  
+      object-fit: cover;  
+  }  
+  #style-6UJke.style-6UJke {  
+     color: transparent;  
+      border-radius: 24px;  
+      width: 225px;  
+      height: 225px;  
+      object-fit: cover;  
+  }  
+  #style-USsNG.style-USsNG {  
+     color: transparent;  
+      border-radius: 24px;  
+      width: 225px;  
+      height: 225px;  
+      object-fit: cover;  
+  }  
+  #style-LG8Vo.style-LG8Vo {  
+     color: transparent;  
+  }  
+  #style-Pe3dc.style-Pe3dc {  
+     color: transparent;  
+  }  
+  #style-xYsE6.style-xYsE6 {  
+     color: transparent;  
+  }  
+  #style-3gseb.style-3gseb {  
+     color: transparent;  
+  }  
+  #style-Z5Agf.style-Z5Agf {  
+     color: transparent;  
+  }  
+  #style-xtBma.style-xtBma {  
+     color: transparent;  
+  }  
+  #style-hMYvS.style-hMYvS {  
+     color: transparent;  
+  }  
+  #style-HeXZO.style-HeXZO {  
+     color: transparent;  
+  }  
+  #style-rXGx5.style-rXGx5 {  
+     color: transparent;  
+  }  
+  #style-ZctIU.style-ZctIU {  
+     color: transparent;  
+  }  
+  #style-CDWla.style-CDWla {  
+     color: transparent;  
+  }  
+  #style-yg7c3.style-yg7c3 {  
+     color: transparent;  
+      width: 378px;  
+      height: 264px;  
+  }  
+  #style-PR9ZB.style-PR9ZB {  
+     color: transparent;  
+      width: 378px;  
+      height: 264px;  
+  }  
+  #style-3cy3H.style-3cy3H {  
+     color: transparent;  
+      width: 378px;  
+      height: 264px;  
+  }  
+  
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Thin.690fb846.otf) format("opentype");
+    font-weight:100;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Light.a39ef44a.otf) format("opentype");
+    font-weight:300;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Book.a288d79c.otf) format("opentype");
+    font-weight:350;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Regular.1fa99b0b.otf) format("opentype");
+    font-weight:400;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Bold.49f6926a.otf) format("opentype");
+    font-weight:700;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-ExtraBold.812ab171.otf) format("opentype");
+    font-weight:800;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Heavy.f7851a45.otf) format("opentype");
+    font-weight:900;
+  } 
+  @font-face { 
+    font-family:Nexa;
+    src:url(https://coinswitch.co/_next/static/media/Nexa-Black.f35f77b5.otf) format("opentype");
+    font-weight:950;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/37160c2c1a1c0b2c-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:300;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/cdc83711ba157962-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:400;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/794886cc5c70a0ae-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:700;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_df0f6a;
+    src:url(https://coinswitch.co/_next/static/media/0b83511c58f914fd-s.p.woff2) format("woff2");
+    font-display:swap;
+    font-weight:800;
+    font-style:normal;
+  } 
+  @font-face { 
+    font-family:__Nexa_Fallback_df0f6a;
+    src:local("Arial");
+    ascent-override:91.65%;
+    descent-override:27.37%;
+    line-gap-override:20.20%;
+    size-adjust:108.89%;
+  } 
+    body {  
+      font-family:__Nexa_df0f6a,__Nexa_Fallback_df0f6a;
+      line-height:inherit;
+    }  
+  body { 
+  /* CSS Variables that may have been missed get put on body */ 
+      --tw-bg-opacity:  1;  
+  } 
+  
+  * { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  * { 
+      box-sizing: border-box; 
+      font-family: Nexa,sans-serif;
+  } 
+  
+  body { 
+      margin: 0; 
+      line-height: inherit;
+  } 
+  
+  body { 
+      margin: 0; 
+      overflow-x: hidden; 
+      box-sizing: border-box; 
+      font-family: Nexa-Regular,sans-serif;
+  } 
+  
+  html { 
+      line-height: 1.15;
+  } 
+  
+  html { 
+      line-height: 1.5; 
+      -webkit-text-size-adjust: 100%; 
+      -moz-tab-size: 4; 
+      -o-tab-size: 4; 
+      tab-size: 4; 
+      font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; 
+      font-feature-settings: normal;
+  } 
+  
+  html { 
+      margin: 0; 
+      overflow-x: hidden; 
+      box-sizing: border-box; 
+      font-family: Nexa-Regular,sans-serif;
+  } 
+  
+  .Header_width_wrapper__FWQMm { 
+      width: 100%; 
+      max-width: 1440px; 
+      margin: 0 auto;
+      position:fixed;
+      opacity: 2;
+      z-index:5;
+      background-color: white;
+  } 
+  
+  .Header_width_wrapper__FWQMm  { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      padding-top: 10px;
+  } 
+  
+  *,:after,:before { 
+      box-sizing: border-box; 
+      border: 0 solid #e5e7eb;
+  } 
+  
+  :-webkit-scrollbar { 
+      display: none;
+  } 
+  
+  a { 
+      background-color: transparent;
+  } 
+  
+  a { 
+      text-decoration: inherit;
+  } 
+  
+  a { 
+      text-decoration: none; 
+      color: inherit;
+  } 
+  
+  .Header_header_menu_icon__jOzTU { 
+      display: none;
+  } 
+  
+  .Header_header_content_wrapper__AKUFm { 
+      display: flex; 
+      align-items: center;
+  } 
+  
+  img { 
+      border-style: none;
+  } 
+  
+  img { 
+      display: block; 
+      vertical-align: middle;
+  } 
+  
+  img { 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  ul { 
+      list-style: none; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  .Header_header_nav__dTpoT { 
+      display: flex; 
+      list-style: none; 
+      margin: 0;
+  } 
+  
+  .Header_header_nav_item__QYIP0 { 
+      padding: 18px 30px; 
+      display: flex; 
+      align-items: center; 
+      cursor: pointer;
+  } 
+  
+  .Header_header_nav_item_hoverItem__bFmwJ { 
+      position: relative;
+  } 
+  
+  button { 
+      line-height: 1.15;
+  } 
+  
+  button { 
+      overflow: visible;
+  } 
+  
+  button { 
+      font-family: inherit; 
+      font-size: 100%; 
+      font-weight: inherit; 
+      line-height: inherit; 
+      color: inherit; 
+      margin: 0; 
+      padding: 0;
+  } 
+  
+  button { 
+      text-transform: none;
+  } 
+  
+  button { 
+      -webkit-appearance: button; 
+      background-color: transparent; 
+      background-image: none;
+  } 
+  
+  button { 
+      cursor: pointer;
+  } 
+  
+  .cursor-pointer { 
+      cursor: pointer;
+  } 
+  
+  .rounded-lg { 
+      border-radius: .5rem;
+  } 
+  
+  .bg-\[\#b1e50e\] { 
+      --tw-bg-opacity: 1; 
+      background-color: rgb(177 229 14/var(--tw-bg-opacity));
+  } 
+  
+  .px-6 { 
+      padding-left: 1.5rem; 
+      padding-right: 1.5rem;
+  } 
+  
+  .py-3 { 
+      padding-top: .75rem; 
+      padding-bottom: .75rem;
+  } 
+  
+  .Header_header_nav_item_chevron__pxQWA { 
+      margin: 2px 0 0 10px;
+  } 
+  
+  .Header_header_nav_item_hoverItem_menu__puKSB { 
+      position: absolute; 
+      list-style: none; 
+      background-color: #fff; 
+      left: 20px; 
+      top: 80px; 
+      padding: 0; 
+      max-height: 0; 
+      overflow: hidden; 
+      transition: .3s ease-in-out;
+  } 
+  
+  .Header_header_nav_item_hoverItem_menu_item__I8HLS { 
+      font-size: 14px; 
+      line-height: 20px; 
+      font-weight: 400; 
+      display: flex; 
+      flex-direction: column; 
+      padding: 10px 12px; 
+      transition: .3s linear; 
+      width: 150px;
+  } 
+  
+  .Header_header_nav_item_hoverItem_menu_item__I8HLS:hover { 
+      background-color: #323542; 
+      color: #fff;
+  } 
+  
+  p { 
+      margin: 0;
+  } 
+  
+  p { 
+      margin-bottom: 1rem;
+  } 
+  
+  .Header_header_nav_item_hoverItem_menu_item_description__4kMkl { 
+      font-size: 10px; 
+      line-height: 14px; 
+      font-weight: 700; 
+      color: #a4a5ab; 
+      margin: 0;
+  } 
+  
+  
+  
+  
